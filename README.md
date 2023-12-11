@@ -7,8 +7,8 @@
 ![Скриншот авторизации в админке zabbix](https://github.com/JulieJool/zabbix-stuff/blob/main/img/zabbix-global-view.jpg)
 
 Прежде необходимо установить PostgreSQL:  
-sudo apt install postgresql postgresql-contrib  
-sudo systemctl status postgresql  
+`sudo apt install postgresql postgresql-contrib`  
+`sudo systemctl status postgresql`  
 
 Затем - zabbix:  
 `wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/zabbix-release_6.0-4+debian11_all.deb
@@ -19,6 +19,6 @@ dpkg -i zabbix-release_6.0-4+debian11_all.deb`
 `sudo -u postgres createdb -O zabbix zabbix`  
 `zcat /usr/share/zabbix-sql-scripts/postgresql/server.sql.gz | sudo -u zabbix psql zabbix`  
 `sudo nano /etc/zabbix/zabbix_server.conf`  
-Замена DBPassword=password на заданный пароль  
+*Замена DBPassword=password на заданный пароль*  
 `systemctl restart zabbix-server zabbix-agent apache2`  
 `systemctl enable zabbix-server zabbix-agent apache2`  
