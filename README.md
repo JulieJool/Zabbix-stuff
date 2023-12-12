@@ -37,7 +37,7 @@
 Cкриншот раздела Monitoring > Latest data для обоих хостов:
 ![Cкриншот раздела Monitoring > Latest data для обоих хостов](https://github.com/JulieJool/zabbix-stuff/blob/main/img/Monitoring-latest_data.png)
 
-Список команд:
+Список команд:  
 `wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/
 zabbix-release_6.0-4%2Bdebian11_all.deb`  
 `dpkg -i zabbix-release_6.0-4+debian11_all.deb`  
