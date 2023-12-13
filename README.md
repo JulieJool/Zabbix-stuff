@@ -27,15 +27,20 @@
 # Задание 2
 
 Скриншот раздела Configuration > Hosts:
-![Скриншот раздела Configuration > Hosts](https://github.com/JulieJool/zabbix-stuff/blob/main/img/Configuration-hosts.png)
+![Скриншот раздела Configuration > Hosts](https://github.com/JulieJool/zabbix-p.1/blob/main/img/Configuration-Hosts.png)
 
 Скриншоты лога zabbix agent-ов:
-![Скриншоты лога zabbix agent-ов](https://github.com/JulieJool/zabbix-stuff/blob/main/img/log-agent-1.png)
+![Скриншоты лога zabbix agent-ов](https://github.com/JulieJool/zabbix-p.1/blob/main/img/logs-srv.png)
 
-![Скриншоты лога zabbix agent-ов](https://github.com/JulieJool/zabbix-stuff/blob/main/img/log-agent-2.png)
+![Скриншоты лога zabbix agent-ов](https://github.com/JulieJool/zabbix-p.1/blob/main/img/logs-client.png)
+
+Telnet связь между сервером и машиной агента:
+(https://github.com/JulieJool/zabbix-p.1/blob/main/img/telnet-srv.png "telnet связь со стороны сервера")
+
+(https://github.com/JulieJool/zabbix-p.1/blob/main/img/telnet-client.png "telnet связь со сотороны машины с агентом")
 
 Cкриншот раздела Monitoring > Latest data для обоих хостов:
-![Cкриншот раздела Monitoring > Latest data для обоих хостов](https://github.com/JulieJool/zabbix-stuff/blob/main/img/Monitoring-latest_data.png)
+![Cкриншот раздела Monitoring > Latest data для обоих хостов](https://github.com/JulieJool/zabbix-p.1/blob/main/img/Monitoring-Latest-data.png)
 
 Список команд:  
 `wget https://repo.zabbix.com/zabbix/6.0/debian/pool/main/z/zabbix-release/
