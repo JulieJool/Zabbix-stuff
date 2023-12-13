@@ -35,9 +35,9 @@
 ![Скриншоты лога zabbix agent-ов](https://github.com/JulieJool/zabbix-p.1/blob/main/img/logs-client.png)
 
 Telnet связь между сервером и машиной агента:
-(https://github.com/JulieJool/zabbix-p.1/blob/main/img/telnet-srv.png "telnet связь со стороны сервера")
+![](https://github.com/JulieJool/zabbix-p.1/blob/main/img/telnet-srv.png "telnet связь со стороны сервера")
 
-(https://github.com/JulieJool/zabbix-p.1/blob/main/img/telnet-client.png "telnet связь со сотороны машины с агентом")
+![](https://github.com/JulieJool/zabbix-p.1/blob/main/img/telnet-client.png "telnet связь со сотороны машины с агентом")
 
 Cкриншот раздела Monitoring > Latest data для обоих хостов:
 ![Cкриншот раздела Monitoring > Latest data для обоих хостов](https://github.com/JulieJool/zabbix-p.1/blob/main/img/Monitoring-Latest-data.png)
