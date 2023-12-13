@@ -1,4 +1,4 @@
-# Zabbix-stuff
+# zabbix-p.1
 
 ### Задание 1
 
